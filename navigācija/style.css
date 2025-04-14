@@ -1,0 +1,76 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #B0B6CA;
+    color: #5A6682;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #8b90a2;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+}
+h2 {
+    color: #5A6682;
+    text-align: center;
+}
+nav {
+    background-color: #b7c4f0;
+    padding: 1rem;
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+.saturs {
+    padding: 20px;
+    background-color: #B0B6CA;
+}
+.produkti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.produkts {
+    background-color: #8b90a2;
+    border: 1px solid #5A6682;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: 200px;
+}
+footer {
+    background-color: #8b90a2;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+nav {
+    background-color: whitesmoke;
+    padding: 1rem;
+    display: flex;
+    width: 200px;
+    flex-direction: center;
+    justify-content: center;
+}
+nav a {
+color: #b7c4f0;
+text-decoration: none;
+padding: 0.5rem 1rem;
+}
+nav a:hover {
+    background-color: #99a5cd;
+}
+.lapa {
+    display: flex;
+}
